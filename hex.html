@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hexagons</title>
+        <link rel='stylesheet' type='text/css' href='assets/css/hex-style.css'>
+        <link rel="stylesheet" href="https://use.typekit.net/oex0ank.css">
+
+    </head>
+    <body id='hex'>
+
+        <div id='home-hex'>
+            <h3 id='home-txt' onmouseover='homeHover(true);' onmouseout='homeHover(false)'>Home</h3>
+            <svg width="98" height="86" viewBox="0 0 98 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id='home-path' onmouseover='homeHover(true);' onmouseout='homeHover(false)' d="M0 43L24.5 0.564758H73.5L98 43L73.5 85.4352H24.5L0 43Z" fill="#CBD9C9"/>
+            </svg>
+                
+        </div>
+
+        <div id='main-container'>
+            <div id='selectors-container'>
+                <div class='selector' id='sel1'>
+                    <h2 id='geo-txt' onmouseover='geoHover(true);' onmouseout='geoHover(false)'>Geometry</h2>
+                    <svg width="151" height="151" viewBox="0 0 225 259" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id='path1' onmouseover='geoHover(true);' onmouseout='geoHover(false)' d="M112.5 0L224.65 64.75V194.25L112.5 259L0.349709 194.25V64.75L112.5 0Z" fill="#F5BA93"/>
+                    </svg>
+                </div>
+                <div class='selector' id='sel2'>
+                    <h2 id='phy-txt' onmouseover='phyHover(true);' onmouseout='phyHover(false)'>Physics</h2>
+                    <svg width="151" height="151" viewBox="0 0 225 259" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id='path2' onmouseover='phyHover(true);' onmouseout='phyHover(false)' d="M112.5 0L224.65 64.75V194.25L112.5 259L0.349709 194.25V64.75L112.5 0Z" fill="#EB7086"/>
+                    </svg>
+                </div>
+                <div class='selector' id='sel3'>
+                    <h2 id='nat-txt' onmouseover='natHover(true);' onmouseout='natHover(false)'>Nature</h2>
+                    <svg width="151" height="151" viewBox="0 0 225 259" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id='path3' onmouseover='natHover(true);' onmouseout='natHover(false)' d="M112.5 0L224.65 64.75V194.25L112.5 259L0.349709 194.25V64.75L112.5 0Z" fill="#CBD9C9"/>
+                    </svg>
+                </div>
+                    
+            </div>
+            <div id='cards-container'>
+                <div id='geo-cards'>
+                    <div class='card' id='geo1'>
+                        <img src='assets/img/geo1-img.svg'>
+                        <h1>Tiling</h1>
+                        <p>Only three regular polygons can tile: triangles, squares, and hexagons.</p>
+                    </div>
+                    <div class='card-col'>
+                        <div class='card' id='geo2'>
+                            <h1>Square Tiles</h1>
+                            <p>Squares tile by dividing themselves into smaller squares. Quite boring.</p>
+                        </div>
+                        <div class='card' id='geo3'>
+                            <div id='gif-container'>
+                                <img id='gif' src='assets/img/tritile.gif'>
+                                <img id='gif-backdrop' src='assets/img/gif-backdrop.svg'>
+                                
+                            </div>
+                            <h1>Triangle Tiles</h1>
+                            <p>Triangles tile by... Well they form hexagons.</p>
+                        </div>
+                    </div>
+                   
+                    <div class='card' id='geo4'>
+                        <img src='assets/img/geo4-img.svg'>
+                        <h1>Perimeter-to-Area Ratio</h1>
+                        <p>Out of the three tile-able regular shapes, the hexagon has the smallest perimeter-to-area ratio. This means it uses the minimal amount of lines possible to tile an area.</p>
+                    </div>
+                </div>
+
+                <div id='phy-cards'>
+                    <div class='card' id='phy1'>
+                        <img src='assets/img/phy1-img.svg'>
+                        <h1>Strength</h1>
+                        <p>When hexagons meet, they create three 120-degree joints. This makes them one of the strongest tile structure.</p>
+                    </div>
+
+                    <div class='card' id='phy2'>
+                        <img src='assets/img/phy2-img.svg'>
+                        <h1>Push/Pull Resistance</h1>
+                        <p>The three joint segments act together to form a resistance. Push on one end, the other two push back equally. Pull and they pull back.</p>
+                    </div>
+
+                    <div class='card' id='phy3'>
+                        <h1>Lightweight</h1>
+                        <p>Because hexagons can cover a large area with minimal lines, hexagonal grids are extremely lightweight. This combined with their strength means they’re ideal for aviation.<p>
+                    </div>
+                    
+                </div>
+
+                <div id='nat-cards'>
+                    <div class='card' id='nat1'>
+                        <img src='assets/img/nat1-img.svg'>
+                        <h1>Honeycomb</h1>
+                        <p>Wax is expensive but honey must be stored. To solve this bees take advantage of the hexagon, minimizing wax usage and maximizing honey storage.</p>
+                    </div>
+                    <div class='card-col'>
+                        <div class='card' id='nat2'>
+                            <h1>Vision</h1>
+                            <p>Retinas are cells at the back of our eyes that capture light, letting us see. These cells also take advantage of a hexagonal grid to let in as much light as possible with the least amount of cell walls getting in the way.</p>
+                        </div>
+                        <div class='card' id='nat4'>
+                            <h1>Snowflakes</h1>
+                            <p>When snowflakes begin forming by a small number of water molecules combining into a hexagon. As more molecules join, the structure continues building hexagons in a fractal pattern.</p>
+                        </div>
+                    </div>
+
+                    <div class='card' id='nat3'>
+                        <img src='assets/img/nat3-img.svg'>
+                        <h1>Saturn’s Hexagon</h1>
+                        <p>Hexagons even appear outside of Earth’s nature. At Saturn’s north pole, there is a hexagon-shaped cloud larger than twice of Earth’s diameter. The color changes gradually over several years and nobody can agree on why it exists.<p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+        <script type='text/javascript' src='assets/js/hex-script.js'></script>
+
+    </body>
+</html>

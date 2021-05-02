@@ -1,0 +1,61 @@
+/* --- INDEX --- */
+body#index {
+    position: relative;
+
+    background: #3D405B;    
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-title {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    margin: 50px;
+
+    transform: translateX(-85%);
+
+    color: #F4F1DE;
+}
+
+#hex-container {
+    margin-top: 55px;
+    width: 620px;
+    height: 320px;
+    
+    position: relative;
+
+    transform: scale(1.2, 1.2);
+}
+
+#hex-title {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    color: #F4F1DE;
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hex-title:hover {
+    text-decoration: underline;
+}
+
+#hexes {
+    z-index: -1;
+}
+
+#hexes path {
+    display: none;
+}
+
+

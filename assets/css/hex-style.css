@@ -1,0 +1,169 @@
+/* --- HEX --- */
+body {
+    position: relative;
+    background: #3D405B;
+}
+
+#home-hex {
+    margin-top: 5px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+#home-txt {
+    font-family: futura-pt, sans-serif;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #3D405B;
+
+    left: 50%;
+    top: 23px;
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+    z-index: 1;
+}
+
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#selectors-container {
+    width: 80%;
+
+    margin-top: 80px;
+    margin-bottom: 35px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.selector {
+    position: relative;
+}
+
+h2 {
+    font-family: futura-pt, sans-serif;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #3D405B;
+
+    left: 50%;
+    top: 55px;
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+    z-index: 1;
+}
+
+#cards-container {
+    width: 80%;
+}
+
+#geo-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.card {
+    width: 350px;
+    border-radius: 3%;
+    background: #F4F1DE;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    color: #F5BA93;
+
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+
+}
+
+p {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+
+    color: #3D405B;
+}
+
+.card p {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    width: 85%;
+}
+
+.card img {
+    transform: translateY(-18px);
+    margin-bottom: -18px;
+}
+
+#gif-container {
+    position: relative;
+}
+
+#gif {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);    
+}
+
+#phy-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+#phy1 h1, #phy2 h1, #phy3 h1 {
+    color: #EB7086;
+}
+
+#nat-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+#nat1 h1, #nat2 h1, #nat3 h1, #nat4 h1 {
+    color: #77CAD0;
+}
+
+#geo-cards, #phy-cards, #nat-cards {
+    display: none;
+}
+
+
+
